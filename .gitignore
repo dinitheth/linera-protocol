@@ -16,9 +16,9 @@
 .idea/
 
 # VSCode
-.vscode
 /.direnv
 
 # Helm
 kubernetes/linera-validator/working/*
 node_modules
+config.bat
