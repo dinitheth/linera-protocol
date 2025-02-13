@@ -8,7 +8,7 @@
     "rust": "wasm-pack build --debug -t web",
     "ts": "vue-tsc",
     "vite": "vite build",
-    "build": "npm run ts && npm run vite",
+    "build": "node init && npm run ts && npm run vite",
     "codegen": "graphql-codegen --config codegen_service.ts && graphql-codegen --config codegen_indexer.ts && graphql-codegen --config codegen_operations.ts",
     "full": "npm run codegen && npm run rust && npm run build",
     "test": "vitest",
